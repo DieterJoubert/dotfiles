@@ -8,6 +8,7 @@ Make symbolic links to this repository!
 ln -s /Users/dieterjoubert/Code/dotfiles/bash_profile  /Users/dieterjoubert/.bash_profile
 ln -s /Users/dieterjoubert/Code/dotfiles/bashrc  /Users/dieterjoubert/.bashrc
 ln -s /Users/dieterjoubert/Code/dotfiles/gitconfig /Users/dieterjoubert/.gitconfig
+ln -s /Users/dieterjoubert/Code/dotfiles/gitignore /Users/dieterjoubert/.gitignore
 ```
 
 
