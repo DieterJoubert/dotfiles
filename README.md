@@ -12,8 +12,34 @@ ln -s /Users/dieterjoubert/Code/dotfiles/gitignore /Users/dieterjoubert/.gitigno
 ```
 
 
-## Non-Dotfile Mac Installation
+## 2019/03 Space Grey Macbook Pro Setup Notes
 
-- Canopy python
-- brew
+
+### Installation Notes
+
+[Canopy v2.1.9 (python 3.5)](https://store.enthought.com/downloads/)
+
+brew
+
+```bash
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+setup dotfiles repository
+
+[generate SSH keys](https://help.github.com/en/enterprise/2.16/user/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+
+```bash
+ssh-keygen -t rsa -b 4096 -C "dieterjoubert@gmail.com"
+```
+
+[setup ssh keys in github](https://help.github.com/en/enterprise/2.16/user/articles/adding-a-new-ssh-key-to-your-github-account
+)
+```bash
+pbcopy < ~/.ssh/id_rsa.pub
+```
+
+
+
+
 
